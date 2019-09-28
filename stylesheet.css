@@ -1,0 +1,580 @@
+
+@charset "utf-8";
+
+
+/*Basic browser default resets */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: auto;
+}
+
+
+}
+
+
+header {
+  float: left; 
+  text-align: left;
+
+
+}
+
+figcaption {
+  font-weight: 800;
+}
+
+
+nav{
+  float: center;
+  background-color: #f6f6f6;
+
+}
+
+
+section {
+  vertical-align: top;
+  max-height: 100%;
+  max-width: 60%;
+  width: 60%;
+  margin-left: 0px;
+  margin-right: 10px; 
+  float: left;
+}
+
+
+
+aside{
+    max-width: 430px;
+    float: left;
+    text-align: left;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-bottom: 30pt;
+
+}
+
+.sources {
+    width: 430px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: right;
+    clear: both;
+
+
+
+}
+
+
+
+
+body {
+
+  min-height: 100%;
+  font-size: 12pt;
+  color: #141414;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f6f6f6;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1 {
+  font-size: 35pt;
+  color: #141414;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 10pt;
+  text-align: left;
+  padding: 30px 10px 0px 10px ;
+  float: center;
+
+}
+
+h1, .subhead {
+
+  font-family: 'Raleway', sans-serif;
+  line-height: 2px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 3vw;
+  letter-spacing: 20%;
+  padding-bottom: 0px;
+  border-radius: 3px;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+  border-bottom: 10pt;
+  color: #222223;
+  padding-top: 40pt;
+  text-align: center;
+  z-index: 200;
+}
+
+
+p {
+  font-size: 14pt;
+  line-height: 18pt;
+}
+
+
+
+h3 { 
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 50pt;
+  color:  #222223;
+  border-radius: 2px;
+  letter-spacing: 0.9pt;
+  text-align: left;
+} 
+
+
+
+footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 30pt;
+  padding-left: 0px
+  
+  
+}
+
+
+
+p.subhead {
+  color: #141414;
+  font-size: 16pt; 
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 20pt;
+  line-height: 160%;
+}
+
+
+
+
+
+
+/* Links/ navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*global link treatment */
+
+/*Main Navigation traetment */
+li {
+  float: left;
+
+}
+
+li a{
+  display: block;
+  color: #222223;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  color: #222223;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+    
+}
+
+.active {
+  background-color: #eaeaea;
+}
+
+.list {
+  line-height: 60px;
+}
+
+
+h2.extrabold{
+  font-weight: 800;
+  font-size: 50pt;
+  text-align: center;
+  padding-left: 70pt;
+}
+
+p.description{
+  width: 300px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  margin-left: 40pt;
+  padding-left: 20pt;
+
+}
+.firstname{
+  color: #e40043;
+  font-size: 50pt;
+  text-align: left;
+  font-weight: 800;
+  line-height: 50pt;
+  letter-spacing: 7pt;
+  padding-left: 4pt;
+
+}
+
+.lastname{
+  color: #e40043;
+  font-size: 50pt;
+  text-align: center;
+  font-weight: 800;
+  line-height: 40pt;
+  letter-spacing: 4pt;
+
+}
+.centerimage{
+  display: block;
+  margin: 0 auto;
+}
+.designparallax { 
+    /* The image used */
+    background-image: url("image/design.png");
+
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.illustrationparallax { 
+    /* The image used */
+    background-image: url("images/illustration.png");
+    
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+
+.contactparallax { 
+    /* The image used */
+    background-image: url("images/contact.jpg");
+
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+   .caption {
+  position: absolute;
+  width: 100%;
+  min-width: 600px;
+  max-width: 1000px;
+  vertical-align: bottom;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  margin-top: 10%
+  z-index: 1;
+  pointer-events: none;
+
+}
+
+.encompass{
+  margin: auto;
+}
+
+.heading-fluid{
+  padding-top: 30px;
+  top: 30px;
+  left: 1em;
+  position: relative;
+  z-index: 3;
+  vertical-align: top;
+}
+
+.wrap {
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+}
+
+#wrapper {
+  width: 70%;
+  text-align: left;
+  padding-left: 2%
+  z-index:+100;
+  -webkit-overflow-scrolling: touch;
+}
+
+#side-nav {
+  position: fixed;
+  min-width: 0vh;
+  width: 30vh;
+  height:100vh;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+  background-color: white;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+#content-wrapper {
+  margin: 0px 0 0 30%;
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:100vh;
+  background-color: white;
+  -webkit-overflow-scrolling: touch;
+}
+
+#contact-content-wrapper {
+  margin: 0px 0 0 0%;
+  min-width: 100vw;
+  overflow-y: scroll;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:100vh;
+  background-color: white;
+}
+
+#cf {
+  position:relative;
+  left: -85pt;
+  height:70px;
+  width:50px;
+  margin:0 auto;
+  margin-right: 35pt;
+  margin-left: 35pt;
+  margin-bottom: 5pt;
+  display: inline-block;
+  float: center;
+}
+
+#cf img {
+  position:absolute;
+  margin-left: 5%;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  transition: 0.2s ease;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+#cf img.bottom:hover {
+    opacity: 100;
+}
+
+.images{
+  width: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #introduction {
+        display: none;
+    
+    }
+    #side-nav {
+      width: 0%;
+    }
+    #content-wrapper{
+      margin: 0px 0 0 0%;
+    }
+    .social2 {
+      padding-left: 30pt;
+    }
+}
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #222223;
+}
+#toggle:checked ~ #expand {
+  height: 400px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+
+#expandabout {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #222223;
+}
+#toggleabout:checked ~ #expandabout {
+  height: 650px;
+}
+
+#expandeducation {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #222223;
+}
+#toggleeducation:checked ~ #expandeducation {
+  height: 800px;
+}
+
+#expandexperience {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #222223;
+}
+#toggleexperience:checked ~ #expandexperience {
+  height: 250pt;
+}
+
+
+#expandskills {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #222223;
+}
+#toggleskills:checked ~ #expandskills {
+  height: 280pt;
+}
+#toggleskills:checked ~ label::before {
+
+}
+
+#expandinterests {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #222223;
+}
+#toggleinterests:checked ~ #expandinterests {
+  height: 280pt;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+input[type=checkbox] + label {
+    background-image: "skills.png";
+    width: 350px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+input[type=checkbox]:checked + label {
+    background-image: "skillsdown.png";
+    width: 350px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+input{
+  cursor: pointer;
+}
+
+label{
+  cursor: pointer;
+}
+
+.contact-info{
+  max-width: 100vw;
+  z-index: 200
+}
+
+.social2{
+  max-width: 100%
+  top: 10pt;
+  padding-left: 20%;
+  float: center;
+  overflow: auto;
+  padding-bottom: 1%;
+  vertical-align: top;
+}
+
+.ParallaxVideo{ 
+    height: 100%;
+    max-width: 30%;
+    min-width: 30%;
+    z-index: -100;
+    vertical-align: left;
+
+
+}
+.ParallaxVideo video{ 
+
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+video {
+  pointer-events: none;
+  object-fit: cover;
+}
+
+.fancybox {
+  pointer-events: none;
+  top: 10;
+}
