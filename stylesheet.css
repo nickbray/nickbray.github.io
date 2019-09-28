@@ -112,6 +112,7 @@ h2 {
   font-size: 2vw;
   letter-spacing: 20%;
   padding-bottom: 5%;
+  padding-top: 10%;
   border-radius: 3px;
   letter-spacing: 0.5pt;
   border-bottom: 10pt;
@@ -161,11 +162,6 @@ p.subhead {
   text-align: left;
 }
 
-h4 {
-  font-weight: 300;
-  font-size: 20pt;
-  line-height: 160%;
-}
 
 
 
@@ -575,4 +571,8 @@ video {
 .fancybox {
   pointer-events: none;
   top: 10;
+}
+
+article {
+  padding-top: 2%
 }
