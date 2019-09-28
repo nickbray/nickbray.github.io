@@ -109,16 +109,14 @@ h1, .subhead {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  font-size: 3vw;
+  font-size: 2vw;
   letter-spacing: 20%;
-  padding-bottom: 0px;
+  padding-bottom: 5%;
   border-radius: 3px;
   letter-spacing: 0.5pt;
-  text-transform: uppercase;
   border-bottom: 10pt;
   color: #222223;
-  padding-top: 40pt;
-  text-align: center;
+  text-align: left;
   z-index: 200;
 }
 
