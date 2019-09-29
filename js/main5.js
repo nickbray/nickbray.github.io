@@ -18,3 +18,6 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
+
+// trigger right as the document loads
+document.getElementById("preload").className = "";
