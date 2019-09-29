@@ -695,9 +695,20 @@ height: 100%;
     opacity: 100;
 }
 
-#preload * {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+.illustrationparallax{
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.illustrationparallax[data-src] {
+  opacity: 0;
 }
