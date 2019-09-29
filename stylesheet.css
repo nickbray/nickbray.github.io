@@ -125,6 +125,8 @@ h2 {
 p {
   font-size: 14pt;
   line-height: 18pt;
+  font-weight: 600;
+  padding-bottom: 10%;
 }
 
 
@@ -576,3 +578,51 @@ video {
 article {
   padding-top: 2%
 }
+
+#overlay img {
+  position:absolute;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  transition: 0.2s ease;
+}
+
+
+#overlay img.top:hover {
+  opacity:0;
+}
+
+#overlay img.bottom:hover {
+    opacity: 100;
+}
+
+h2 .caption {
+  position: absolute;
+  width: 100%;
+  min-width: 600px;
+  max-width: 1000px;
+  vertical-align: bottom;
+  left: 5%;
+  right: 0;
+  margin-top: 10%
+  z-index: 1;
+  pointer-events: none;
+
+}
+
+.secretplaceparallax { 
+    /* The image used */
+    background-image: url("images/secretplace/shot1.png");
+    
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
