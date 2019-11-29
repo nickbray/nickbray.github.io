@@ -594,6 +594,7 @@ article {
 }
 
 #overlay img {
+  width: 100%;
   position:absolute;
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
@@ -641,6 +642,55 @@ h2 .caption {
 
 }
 
+
+.junkyardparallax { 
+    /* The image used */
+    background-image: url("images/junkyardthumb.png");
+    
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nosparallax { 
+    /* The image used */
+    background-image: url("images/nosthumb.png");
+    
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.keepmovingparallax { 
+    /* The image used */
+    background-image: url("images/keepmovingthumb.png");
+    
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .video-container {
 position: relative;
 padding-bottom: 56.25%;
@@ -650,11 +700,9 @@ padding-top: 30px; height: 0; overflow: hidden;
 .video-container iframe,
 .video-container object,
 .video-container embed {
-position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 100%;
 
 }
 
@@ -711,4 +759,20 @@ img[data-src] {
 
 .illustrationparallax[data-src] {
   opacity: 0;
+}
+
+.iframe-container {
+  overflow: hidden;
+  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
