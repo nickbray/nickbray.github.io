@@ -452,6 +452,12 @@ p.description{
     .social2 {
       padding-left: 30pt;
     }
+    .fancybox{
+      width: 100%;
+    }
+    #overlay a img .top .bottom{
+      width: 100%;
+    }
 }
 
 #expand {
