@@ -302,7 +302,6 @@ p.description{
    .caption {
   position: absolute;
   width: 100%;
-  min-width: 600px;
   max-width: 1000px;
   vertical-align: bottom;
   left: 0;
