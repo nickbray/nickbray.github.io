@@ -27,8 +27,4 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ junkyardjuke.html [NC,L]
-
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ nos.html [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
