@@ -751,6 +751,23 @@ h2 .caption {
 
 }
 
+.cheapspiritsparallax { 
+    /* The image used */
+    background-image: url("images/flipart2.png");
+    right: 30%;
+    
+    /* Set a specific height */
+    width: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .video-container {
 position: relative;
 padding-bottom: 56.25%;
@@ -787,6 +804,8 @@ width: 100%;
 
 #overlay3 img {
   position:absolute;
+  margin-top: 65%;
+  width: 100%;
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
   -o-transition: opacity 0.2s ease-in-out;
