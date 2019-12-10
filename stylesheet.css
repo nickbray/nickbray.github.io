@@ -460,6 +460,13 @@ p.description{
     }
 }
 
+@media only screen and (max-width: 750px) {
+    li {
+      padding-left: 5%;
+    }
+    
+}
+
 #expand {
   height: 0px;
   overflow: hidden;
