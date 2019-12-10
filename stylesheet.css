@@ -455,6 +455,10 @@ p.description{
     .fancybox{
       width: 100%;
     }
+
+     .fancybox2 {
+      width: 100%;
+    }
     #overlay a img .top .bottom{
       width: 100%;
     }
@@ -465,7 +469,16 @@ p.description{
       padding-left: 5%;
     }
     
+
 }
+
+@media only screen and (min-width: 1200px) {
+    .fancybox2 {
+      margin-top: 60%;
+    }
+
+}
+
 
 #expand {
   height: 0px;
@@ -616,6 +629,11 @@ video {
   top: 10;
 }
 
+.fancybox2 {
+  pointer-events: none;
+  top: 10;
+}
+
 article {
   padding-top: 2%
 }
@@ -629,6 +647,7 @@ article {
   transition: opacity 0.2s ease-in-out;
   transition: 0.2s ease;
 }
+
 
 
 #overlay img.top:hover {
@@ -804,7 +823,6 @@ width: 100%;
 
 #overlay3 img {
   position:absolute;
-  margin-top: 65%;
   width: 100%;
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
