@@ -562,6 +562,17 @@ label{
   vertical-align: top;
 }
 
+.social3{
+  max-width: 100%
+  top: 10pt;
+  padding-left: 45%;
+  position: center;
+  float: center;
+  overflow: auto;
+  padding-bottom: 5%;
+  vertical-align: top;
+}
+
 .ParallaxVideo{ 
     height: 100%;
     max-width: 30%;
