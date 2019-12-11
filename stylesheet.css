@@ -391,7 +391,7 @@ p.description{
     height: 20%;
 
     background-attachment: fixed;
-    background-position: right;
+    background-position: 0vh 15vh;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.2s ease;
@@ -419,7 +419,7 @@ p.description{
 
     background-image: url("images/junkyardoverlay.png");
     background-attachment: fixed;
-    background-position: right;
+    background-position: 0vh 15vh;
     background-repeat: no-repeat;
     background-size: cover;
 }  
@@ -440,7 +440,7 @@ p.description{
     height: 20%;
 
     background-attachment: fixed;
-    background-position: 0% 25vw;
+     background-position: 0vh 45vh;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.2s ease;
@@ -461,24 +461,24 @@ p.description{
     transition: 0.2s ease;
 }  
 
-.homeparallax4:hover .homeparallax4:active{ 
+.homeparallax4:hover, .homeparallax3:active{ 
     display: block;
     top: 10%;
     height: 25%;
 
     background-image: url("images/shot1overlay.png");
     background-attachment: fixed;
-    background-position: 0% 25vw;
+    background-position: 0vh 45vh;
     background-repeat: no-repeat;
     background-size: cover;
 }  
 
-.homeparallax4 a:hover,.homeparallax4 a:active{ 
+.homeparallax4 a:hover, .homeparallax3 a:active{ 
     opacity: 100%;
     padding-top: 3%;
 }  
 
-/*-----------------------------------------*/
+/*-----------------------------------*/
 
 .homeparallax5 { 
     /* The image used */
@@ -717,16 +717,6 @@ p.description{
     #overlay a img .top .bottom{
       width: 100%;
     }
-    .homeparallax4 {
-      background-position: 0 10vw;
-
-    }
-
-    .homeparallax4:hover {
-      background-position: 0 10vw;
-
-    }
-}
 
 @media only screen and (max-width: 750px) {
     .navbar {
