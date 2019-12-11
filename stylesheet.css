@@ -715,6 +715,15 @@ p.description{
     #overlay a img .top .bottom{
       width: 100%;
     }
+    .homeparallax4 {
+      background-position: 0 10vw;
+
+    }
+
+    .homeparallax4:hover {
+      background-position: 0 10vw;
+
+    }
 }
 
 @media only screen and (max-width: 750px) {
