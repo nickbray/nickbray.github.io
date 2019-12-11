@@ -294,8 +294,7 @@ p.description{
     height: 20%;
 
     background-attachment: fixed;
-    background-position: 0pt -280pt;
-    vertical-align: right;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.2s ease;
@@ -304,7 +303,7 @@ p.description{
 
 .homeparallax1 a{ 
     width: 100%;
-    height: 120%;
+    height: 100%;
     display: block;
     font-size: 50pt;
     text-align: center;
@@ -321,10 +320,9 @@ p.description{
     top: 10%;
     height: 25%;
 
-    background-image: url("images/keepmovingoverlayhome.png");
+    background-image: url("images/keepmovingoverlay.png");
     background-attachment: fixed;
-    background-position: 0pt -280pt;
-    vertical-align: right;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }  
