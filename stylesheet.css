@@ -283,7 +283,247 @@ p.description{
     background-repeat: no-repeat;
     background-size: cover;
 
-} 
+}
+
+/*-----------------------------------------*/
+
+.homeparallax1 { 
+    /* The image used */
+    background-image: url("images/keepmovingthumb.png");
+    width: 100%;
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s ease;
+
+}  
+
+.homeparallax1 a{ 
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 50pt;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    vertical-align: center;
+    text-decoration: none;
+    opacity: 0%;
+    transition: 0.2s ease;
+}  
+
+.homeparallax1:hover{ 
+    display: block;
+    top: 10%;
+    height: 25%;
+
+    background-image: url("images/keepmovingoverlay.png");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.homeparallax1 a:hover{ 
+    opacity: 100%;
+    padding-top: 3%;
+}  
+
+/*-----------------------------------*/
+
+.homeparallax2 { 
+    /* The image used */
+    background-image: url("images/flipart2.png");
+    width: 100%;
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s ease;
+
+}  
+
+.homeparallax2 a{ 
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 50pt;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    vertical-align: center;
+    text-decoration: none;
+    opacity: 0%;
+    transition: 0.2s ease;
+}  
+
+.homeparallax2:hover{ 
+    display: block;
+    top: 10%;
+    height: 25%;
+
+    background-image: url("images/flipart2overlay.png");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.homeparallax2 a:hover{ 
+    opacity: 100%;
+    padding-top: 3%;
+}  
+
+
+/*-----------------------------------------*/
+
+.homeparallax3 { 
+    /* The image used */
+    background-image: url("images/junkyardthumb.png");
+    width: 100%;
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s ease;
+
+}  
+
+.homeparallax3 a{ 
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 50pt;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    vertical-align: center;
+    text-decoration: none;
+    opacity: 0%;
+    transition: 0.2s ease;
+}  
+
+.homeparallax3:hover{ 
+    display: block;
+    top: 10%;
+    height: 25%;
+
+    background-image: url("images/junkyardoverlay.png");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.homeparallax3 a:hover{ 
+    opacity: 100%;
+    padding-top: 3%;
+}  
+
+/*-----------------------------------*/
+
+/*-----------------------------------------*/
+
+.homeparallax4 { 
+    /* The image used */
+    background-image: url("images/shot1.png");
+    width: 100%;
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: 0% 25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s ease;
+
+}  
+
+.homeparallax4 a{ 
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 50pt;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    vertical-align: center;
+    text-decoration: none;
+    opacity: 0%;
+    transition: 0.2s ease;
+}  
+
+.homeparallax4:hover{ 
+    display: block;
+    top: 10%;
+    height: 25%;
+
+    background-image: url("images/shot1overlay.png");
+    background-attachment: fixed;
+    background-position: 0% 25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.homeparallax4 a:hover{ 
+    opacity: 100%;
+    padding-top: 3%;
+}  
+
+/*-----------------------------------------*/
+
+.homeparallax5 { 
+    /* The image used */
+    background-image: url("images/contact.jpg");
+    width: 100%;
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s ease;
+
+}  
+
+.homeparallax5 a{ 
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 50pt;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    vertical-align: center;
+    text-decoration: none;
+    opacity: 0%;
+    transition: 0.2s ease;
+}  
+
+.homeparallax5:hover{ 
+    display: block;
+    top: 10%;
+    height: 25%;
+
+    background-image: url("images/contact.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.homeparallax5 a:hover{ 
+    opacity: 100%;
+    padding-top: 3%;
+}  
+
+/*-----------------------------------*/
 
 .contactparallax { 
     /* The image used */
@@ -389,6 +629,19 @@ p.description{
   -webkit-overflow-scrolling: touch;
 }
 
+#content-wrapper-home {
+  margin: 0px 0 0 0%;
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:100vh;
+  background-color: white;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 
 
@@ -465,7 +718,7 @@ p.description{
 }
 
 @media only screen and (max-width: 750px) {
-    li {
+    .navbar {
       padding-left: 5%;
     }
     
@@ -658,6 +911,32 @@ article {
     opacity: 100;
 }
 
+#homepagemenu img {
+  width: 100%;
+  position:absolute;
+  object-fit: cover;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  transition: 0.2s ease;
+  background-size: cover;
+  margin-top: -25%;
+  margin-bottom: -25%;
+}
+
+
+
+#homepagemenu img.top:hover {
+  opacity:0;
+  margin-top: -12%;
+}
+
+#homepagemenu img.bottom:hover {
+    opacity: 100;
+    margin-top: -12%;
+}
+
 h2 .caption {
   position: absolute;
   width: 100%;
@@ -837,6 +1116,27 @@ width: 100%;
 }
 
 #overlay3 img.bottom:hover {
+    opacity: 100;
+ }
+
+#overlay4 img {
+  position: absolute;
+  object-fit: contain;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  transition: 0.2s ease;
+}
+
+
+#overlay4 img.top:hover {
+  opacity:0;
+}
+
+#overlay4 img.bottom:hover {
     opacity: 100;
 }
 
