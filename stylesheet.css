@@ -315,7 +315,7 @@ p.description{
     transition: 0.2s ease;
 }  
 
-.homeparallax1:hover{ 
+.homeparallax1:hover, .homeparallax1:active{ 
     display: block;
     top: 10%;
     height: 25%;
@@ -327,7 +327,7 @@ p.description{
     background-size: cover;
 }  
 
-.homeparallax1 a:hover{ 
+.homeparallax1 a:hover, .homeparallax1 a:active{ 
     opacity: 100%;
     padding-top: 3%;
 }  
@@ -362,7 +362,7 @@ p.description{
     transition: 0.2s ease;
 }  
 
-.homeparallax2:hover{ 
+.homeparallax2:hover, .homeparallax2:active{ 
     display: block;
     top: 10%;
     height: 25%;
@@ -374,7 +374,7 @@ p.description{
     background-size: cover;
 }  
 
-.homeparallax2 a:hover{ 
+.homeparallax2 a:hover, .homeparallax2 a:active{ 
     opacity: 100%;
     padding-top: 3%;
 }  
@@ -410,7 +410,7 @@ p.description{
     transition: 0.2s ease;
 }  
 
-.homeparallax3:hover{ 
+.homeparallax3:hover, .homeparallax3:active{ 
     display: block;
     top: 10%;
     height: 25%;
@@ -422,7 +422,7 @@ p.description{
     background-size: cover;
 }  
 
-.homeparallax3 a:hover{ 
+.homeparallax3 a:hover, .homeparallax3 a:active{ 
     opacity: 100%;
     padding-top: 3%;
 }  
@@ -459,7 +459,7 @@ p.description{
     transition: 0.2s ease;
 }  
 
-.homeparallax4:hover{ 
+.homeparallax4:hover .homeparallax4:active{ 
     display: block;
     top: 10%;
     height: 25%;
@@ -471,7 +471,7 @@ p.description{
     background-size: cover;
 }  
 
-.homeparallax4 a:hover{ 
+.homeparallax4 a:hover,.homeparallax4 a:active{ 
     opacity: 100%;
     padding-top: 3%;
 }  
@@ -506,7 +506,7 @@ p.description{
     transition: 0.2s ease;
 }  
 
-.homeparallax5:hover{ 
+.homeparallax5:hover, .homeparallax5:active{ 
     display: block;
     top: 10%;
     height: 25%;
@@ -518,7 +518,7 @@ p.description{
     background-size: cover;
 }  
 
-.homeparallax5 a:hover{ 
+.homeparallax5 a:hover, .homeparallax5 a:active{ 
     opacity: 100%;
     padding-top: 3%;
 }  
